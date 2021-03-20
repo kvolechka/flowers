@@ -25,6 +25,15 @@ body {
 *, *::after *::before {
     box-sizing: border-box;
 }
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: auto;
+}
 .header {
     padding-top: 50px;
 }
@@ -413,7 +422,10 @@ body {
         margin: 20px auto;
         display: block;
     }
-    .footer-info {
+    .footer-info, .footer-all-text {
         text-align: left;
+    }
+    .footer-all-text {
+        margin-top: 10px;
     }
 }
