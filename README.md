@@ -6,4 +6,4 @@
 - JS
 - Bootstrap
 - Fancybox (jQuery)
-- Swiper
+- Swiper.js
